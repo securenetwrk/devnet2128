@@ -5,12 +5,12 @@ ansible_python_interpreter="/usr/bin/env python"
 127.0.0.1
 
 [csrs]
-iosv-1 ansible_host=172.16.30.64 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-2 ansible_host=172.16.30.65 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-3 ansible_host=172.16.30.66 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-4 ansible_host=172.16.30.67 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-5 ansible_host=172.16.30.68 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-6 ansible_host=172.16.30.69 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-7 ansible_host=172.16.30.70 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-8 ansible_host=172.16.30.71 ansible_user=cisco ansible_ssh_pass=cisco
-iosv-9 ansible_host=172.16.30.72 ansible_user=cisco ansible_ssh_pass=cisco
+iosv-1 ansible_host=172.16.30.64 ansible_user=cisco ansible_password=cisco
+iosv-2 ansible_host=172.16.30.65 ansible_user=cisco ansible_password=cisco
+iosv-3 ansible_host=172.16.30.66 ansible_user=cisco ansible_password=cisco
+iosv-4 ansible_host=172.16.30.67 ansible_user=cisco ansible_password=cisco
+iosv-5 ansible_host=172.16.30.68 ansible_user=cisco ansible_password=cisco
+iosv-6 ansible_host=172.16.30.69 ansible_user=cisco ansible_password=cisco
+iosv-7 ansible_host=172.16.30.70 ansible_user=cisco ansible_password=cisco
+iosv-8 ansible_host=172.16.30.71 ansible_user=cisco ansible_password=cisco
+iosv-9 ansible_host=172.16.30.72 ansible_user=cisco ansible_password=cisco
