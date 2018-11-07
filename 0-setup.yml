@@ -1,0 +1,31 @@
+---
+- name: Run setup tasks for pod
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+
+  - name: Wait for CSRs to boot
+    pause:
+      minutes: 5
+
+
+- name: Run setup tasks for pod
+  hosts: csrs
+  gather_facts: no
+
+  tasks:
+
+  - name: VERIFYING CONNECTIVITY
+    wait_for:
+      port: 22
+      host: "{{ inventory_hostname }}"
+      timeout: 300
+
+  - name: GATHERING FACTS
+    ios_facts:
+      gather_subset: hardware
+    tags: always
+
+  - name: Show current version
+    debug: msg="Current version for {{ansible_host}} is {{ansible_net_version}}"
