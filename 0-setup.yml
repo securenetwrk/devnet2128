@@ -5,9 +5,9 @@
 
   tasks:
 
-  - name: Wait for CSRs to boot
-    pause:
-      minutes: 5
+#  - name: Wait for CSRs to boot
+#    pause:
+#      minutes: 5
 
 
 - name: Run setup tasks for pod
