@@ -7,13 +7,13 @@
   - name: show running-config (IOS)
     when: ansible_network_os == 'ios'
     ios_command:
-      commands: show running
+      commands: show running-config
     register: config
 
   - name: show running-config (NXOS)
     when: ansible_network_os == 'nxos'
     nxos_command:
-      commands: show running
+      commands: show running-config
     register: config
 
   - name: ensure device folder is created
