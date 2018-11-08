@@ -9,12 +9,13 @@
     ios_command:
       commands: show running-config
     register: config
+    register: "{{ 'config' if stdout[0] else 'garbage' }}"
 
   - name: show running-config (NXOS)
     when: ansible_network_os == 'nxos'
     nxos_command:
       commands: show running-config
-    register: config
+    register: "{{ 'config' if stdout[0] else 'garbage' }}"
 
   - name: ensure device folder is created
     file:
@@ -25,7 +26,7 @@
     command: date +%Y%m%d
     register: timestamp
 
-  - name: Show current version
+  - name: Show current config
     debug: msg="{{config}}"
 
 
