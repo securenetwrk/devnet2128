@@ -19,9 +19,6 @@
     command: date +%Y%m%d
     register: timestamp
 
-  - name: Show current config
-    debug: msg="{{config}}"
-
   - copy:
       content: "{{ config.stdout[0] }}"
       dest: "backup/{{ inventory_hostname }}/running-config_{{ timestamp.stdout }}.cfg"
