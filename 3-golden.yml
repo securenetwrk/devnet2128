@@ -38,8 +38,7 @@
   - name: Configure system details
     ios_system:
       domain_name: "{{ domain_name | default('labdomain.com') }}"
-      lookup_enabled: no
-
+      lookup_enabled: no  # When gathering running config,
 
   - name: Create local users
     when: ansible_network_os == 'ios'
