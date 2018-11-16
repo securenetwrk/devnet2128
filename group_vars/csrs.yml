@@ -2,3 +2,31 @@ ansible_connection: network_cli
 ansible_network_os: ios
 #ansible_user: "{{username}}"
 #ansible_ssh_pass: "{{password}}"
+
+ntp_server1: 1.1.1.1
+ntp_server2: 8.8.8.8
+domain_name: mydomain.lab
+
+config:
+  ntp:
+    - 1.1.1.1
+    - 8.8.8.8
+  logging:
+    - 10.10.20.20
+  domain_name: mydomain.lab
+
+ntp_servers:
+  - 8.8.8.8
+  - 1.1.1.1
+
+local_users_full:
+  - name: cisco
+    privilege: 15
+    configured_password: "Cisco123"
+  - name: admin
+    privilege: 15
+    configured_password: "Cisco123"
+  - name: admin2
+    privilege: 15
+    configured_password: "Cisco123"
+

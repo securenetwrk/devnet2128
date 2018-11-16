@@ -19,6 +19,7 @@
   - name: VERIFYING CONNECTIVITY
     wait_for:
       port: 22
+      delay: 300
       timeout: 300
 
   - name: GATHERING FACTS
