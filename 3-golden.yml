@@ -48,7 +48,6 @@
         - ntp server {{ item }}
       defaults: no
       save: yes
-      save_when: modified
 
 
 

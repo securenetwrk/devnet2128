@@ -4,5 +4,5 @@
   gather_facts: false
 
   roles:
-    - securenetwrk.network_vrf
+    - securenetwrk.ios_vrf
 

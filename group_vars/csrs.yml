@@ -2,6 +2,8 @@ ansible_connection: network_cli
 ansible_network_os: ios
 #ansible_user: "{{username}}"
 #ansible_ssh_pass: "{{password}}"
+ansible_user: cisco
+ansible_password: cisco
 
 ntp_server1: 1.1.1.1
 ntp_server2: 8.8.8.8
@@ -74,7 +76,25 @@ links:
   - "23"
   - "24"
   - "25"
-  - "26"
-  - "56"
-  - "67"
-  - "68"
+
+local_vrfs:
+  - name: red
+    description: "Red VRF"
+    rd: "1:400"
+    interfaces:
+      - Loopback11{{pod_number}}
+  - name: blue
+    description: "Blue VRF"
+    rd: "1:410"
+    interfaces:
+      - Loopback12{{pod_number}}
+  - name: green
+    description: "Green VRF"
+    rd: "1:420"
+    interfaces:
+      - Loopback13{{pod_number}}
+  - name: "{{user_pod}}"
+    description: "{{user_pod}} VRF"
+    rd: "1:{{pod_number}}"
+    interfaces:
+      - Loopback14{{pod_number}}
