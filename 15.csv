@@ -1,4 +1,3 @@
 Session Id, Session Name, Usernames, Password, Start, Stop, DNS Assets, Shared With, Endpoint Kits, Public IPs  
-130896,Cisco VIRL 1.6.55 Sandbox July Release V1,v280user1; v280user2; ... v280user16,="576fbb",2018-11-27 23:30:00,2018-11-28 07:55:00,No DNS Assets,No One,None,null
-130804,Cisco VIRL 1.6.55 Sandbox July Release V1,v350user1; v350user2; ... v350user16,="c06db3",2018-11-27 17:20:40,2018-11-28 05:55:00,No DNS Assets,No One,None,null
-130895,Cisco VIRL 1.6.55 Sandbox July Release V1,v1051user1; v1051user2; ... v1051user16,="454aa6",2018-11-27 23:30:00,2018-11-28 07:55:00,No DNS Assets,No One,None,null
+131454,Cisco VIRL 1.6.55 Sandbox July Release V1,v250user1; v250user2; ... v250user16,="df75c6",2018-11-29 22:19:15,2018-11-30 07:55:00,No DNS Assets,No One,None,null
+131453,Cisco VIRL 1.6.55 Sandbox July Release V1,v1050user1; v1050user2; ... v1050user16,="1c851b",2018-11-29 22:18:42,2018-11-30 07:55:00,No DNS Assets,No One,None,null
