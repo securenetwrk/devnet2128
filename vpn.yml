@@ -16,7 +16,7 @@
       when: pod_num == ""
 
     - name: Read in file
-      shell: cat 15.csv
+      shell: cat pods.csv
       register: mypods
 
     - name: Set creds
