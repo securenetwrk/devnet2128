@@ -12,9 +12,9 @@ Welcome to the DevNet Workshop 2128. Below are the commands you will be using at
 * Change into code directory
   * `cd devnet2128`
 * Run start scipt
-  * `sh start.sh`
+  * `sh 0-start.sh`
 * Connect to VPN
-  * `sh setup.sh`
+  * `sh 1-setup.sh`
     * When prompted, enter your assigned pod number
 
 
