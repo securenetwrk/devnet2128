@@ -35,7 +35,7 @@ Welcome to the DevNet Workshop 2128. Below are the commands you will be using at
   * `ansible-playbook 4-vrf.yml`
 
 UI to connect to environment
-Devnet 2128 pods
+
 Pod 1 https://dcloud2-rtp.cisco.com/session/574053/webrdp/5616810?isLoggingIn=true
 
 Pod 2 https://dcloud2-rtp.cisco.com/session/574052/webrdp/5616820?isLoggingIn=true
