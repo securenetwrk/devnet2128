@@ -37,11 +37,19 @@ Welcome to the DevNet Workshop 2128. Below are the commands you will be using at
 ## UI to connect to environment
 
 Pod 1 https://dcloud2-sjc.cisco.com/session/131512/webrdp/1637728?isLoggingIn=true
+
 Pod 2 https://dcloud2-sjc.cisco.com/session/131511/webrdp/1637732?isLoggingIn=true
+
 Pod 3 https://dcloud2-sjc.cisco.com/session/131510/webrdp/1637736?isLoggingIn=true
+
 Pod 4 https://dcloud2-sjc.cisco.com/session/131509/webrdp/1637741?isLoggingIn=true
+
 Pod 5 https://dcloud2-sjc.cisco.com/session/131508/webrdp/1637743?isLoggingIn=true
+
 Pod 6 https://dcloud2-sjc.cisco.com/session/131507/webrdp/1637758?isLoggingIn=true
+
 Pod 7 https://dcloud2-sjc.cisco.com/session/131506/webrdp/1637773?isLoggingIn=true
+
 Pod 8 https://dcloud2-sjc.cisco.com/session/131505/webrdp/1637785?isLoggingIn=true
+
 Pod 9 https://dcloud2-sjc.cisco.com/session/131504/webrdp/1637799?isLoggingIn=true
