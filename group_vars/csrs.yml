@@ -52,24 +52,24 @@ tenants:
       - vlan_num: 2
         name: "{{siteid}}-engineering-voice"
         subnet: "10.{{siteid}}.122.0/24"
-  - tenant_name: hr
-    tenant_num: 13
-    segments:
-      - vlan_num: 1
-        name: "{{siteid}}-hr-data"
-        subnet: "10.{{siteid}}.131.0/24"
-      - vlan_num: 2
-        name: "{{siteid}}-hr-voice"
-        subnet: "10.{{siteid}}.132.0/24"
-  - tenant_name: facilities
-    tenant_num: 14
-    segments:
-      - vlan_num: 1
-        name: "{{siteid}}-facilities-data"
-        subnet: "10.{{siteid}}.141.0/24"
-      - vlan_num: 2
-        name: "{{siteid}}-facilities-voice"
-        subnet: "10.{{siteid}}.142.0/24"
+#  - tenant_name: hr
+#    tenant_num: 13
+#    segments:
+#      - vlan_num: 1
+#        name: "{{siteid}}-hr-data"
+#        subnet: "10.{{siteid}}.131.0/24"
+#      - vlan_num: 2
+#        name: "{{siteid}}-hr-voice"
+#        subnet: "10.{{siteid}}.132.0/24"
+#  - tenant_name: facilities
+#    tenant_num: 14
+#    segments:
+#      - vlan_num: 1
+#        name: "{{siteid}}-facilities-data"
+#        subnet: "10.{{siteid}}.141.0/24"
+#      - vlan_num: 2
+#        name: "{{siteid}}-facilities-voice"
+#        subnet: "10.{{siteid}}.142.0/24"
 
 
 links:
@@ -88,13 +88,14 @@ local_vrfs:
     rd: "1:410"
     interfaces:
       - Loopback12{{pod_number}}
-  - name: green
-    description: "Green VRF"
-    rd: "1:420"
-    interfaces:
-      - Loopback13{{pod_number}}
-  - name: "{{user_pod}}"
-    description: "{{user_pod}} VRF"
-    rd: "1:{{pod_number}}"
-    interfaces:
-      - Loopback14{{pod_number}}
+#  - name: green
+#    description: "Green VRF"
+#    rd: "1:420"
+#    interfaces:
+#      - Loopback13{{pod_number}}
+#  - name: "{{user_pod}}"
+#    description: "{{user_pod}} VRF"
+#    rd: "1:{{pod_number}}"
+#    interfaces:
+#      - Loopback14{{pod_number}}
+#
