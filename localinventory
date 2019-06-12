@@ -6,3 +6,8 @@ ansible_python_interpreter="/usr/bin/env python"
 
 [csrs]
 172.20.20.10
+
+[csrs:vars]
+ansible_user=vagrant
+ansible_ssh_pass=vagrant
+ansible_password=vagrant
