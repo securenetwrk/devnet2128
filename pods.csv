@@ -1,13 +1,10 @@
 Session Id, Session Name, Usernames, Password, Start, Stop, DNS Assets, Shared With, Endpoint Kits, Public IPs  
-385337,Cisco VIRL 1.6.55 Sandbox July Release V1,v812user1; v812user2; ... v812user16,="d2b4a4",2019-06-10 16:45:00,2019-06-11 03:45:00,No DNS Assets,No One,None,null
-385339,Cisco VIRL 1.6.55 Sandbox July Release V1,v273user1; v273user2; ... v273user16,="f153a1",2019-06-10 15:45:00,2019-06-11 03:45:00,No DNS Assets,No One,None,null
-385342,Cisco VIRL 1.6.55 Sandbox July Release V1,v394user1; v394user2; ... v394user16,="10c381",2019-06-10 16:45:00,2019-06-11 02:45:00,No DNS Assets,No One,None,null
-385338,Cisco VIRL 1.6.55 Sandbox July Release V1,v697user1; v697user2; ... v697user16,="44417d",2019-06-10 15:45:00,2019-06-11 03:45:00,No DNS Assets,No One,None,null
-385340,Cisco VIRL 1.6.55 Sandbox July Release V1,v744user1; v744user2; ... v744user16,="c88527",2019-06-10 16:45:00,2019-06-11 04:45:00,No DNS Assets,No One,None,null
-385336,Cisco VIRL 1.6.55 Sandbox July Release V1,v416user1; v416user2; ... v416user16,="e78e18",2019-06-10 16:30:00,2019-06-11 03:30:00,No DNS Assets,No One,None,null
-385334,Cisco VIRL 1.6.55 Sandbox July Release V1,v799user1; v799user2; ... v799user16,="da7681",2019-06-10 16:30:00,2019-06-11 03:30:00,No DNS Assets,No One,None,null
-385341,Cisco VIRL 1.6.55 Sandbox July Release V1,v787user1; v787user2; ... v787user16,="909e3c",2019-06-10 16:45:00,2019-06-11 02:45:00,No DNS Assets,No One,None,null
-385345,Cisco VIRL 1.6.55 Sandbox July Release V1,Not Started,="",2019-06-12 13:45:00,2019-06-12 17:45:00,No DNS Assets,No One,None,null
-385343,Cisco VIRL 1.6.55 Sandbox July Release V1,Not Started,="",2019-06-10 17:45:00,2019-06-11 02:45:00,No DNS Assets,No One,None,null
-385344,Cisco VIRL 1.6.55 Sandbox July Release V1,Not Started,="",2019-06-12 13:45:00,2019-06-12 18:45:00,No DNS Assets,No One,None,null
-385346,Cisco VIRL 1.6.55 Sandbox July Release V1,Not Started,="",2019-06-12 14:00:00,2019-06-12 18:00:00,No DNS Assets,No One,None,null
+651837,Cisco VIRL 1.6.55 Sandbox July Release V1,v1098user1; v1098user2; ... v1098user16,="7d31a2",2019-06-11 23:36:00,2019-06-12 19:24:00,No DNS Assets,No One,None,null
+651832,Cisco VIRL 1.6.55 Sandbox July Release V1,v2067user1; v2067user2; ... v2067user16,="7e9950",2019-06-11 23:56:00,2019-06-12 19:04:00,No DNS Assets,No One,None,null
+651806,Cisco VIRL 1.6.55 Sandbox July Release V1,v126user1; v126user2; ... v126user16,="adc509",2019-06-11 23:30:00,2019-06-12 17:30:00,No DNS Assets,No One,None,null
+651836,Cisco VIRL 1.6.55 Sandbox July Release V1,v1864user1; v1864user2; ... v1864user16,="71c7c9",2019-06-11 23:40:00,2019-06-12 19:20:00,No DNS Assets,No One,None,null
+651831,Cisco VIRL 1.6.55 Sandbox July Release V1,v554user1; v554user2; ... v554user16,="199e24",2019-06-12 00:00:00,2019-06-12 19:00:00,No DNS Assets,No One,None,null
+651833,Cisco VIRL 1.6.55 Sandbox July Release V1,v1818user1; v1818user2; ... v1818user16,="87bbf2",2019-06-11 23:52:00,2019-06-12 19:08:00,No DNS Assets,No One,None,null
+651838,Cisco VIRL 1.6.55 Sandbox July Release V1,v2466user1; v2466user2; ... v2466user16,="06dd92",2019-06-11 23:32:00,2019-06-12 19:28:00,No DNS Assets,No One,None,null
+651834,Cisco VIRL 1.6.55 Sandbox July Release V1,v2570user1; v2570user2; ... v2570user16,="291390",2019-06-11 23:48:00,2019-06-12 19:12:00,No DNS Assets,No One,None,null
+651835,Cisco VIRL 1.6.55 Sandbox July Release V1,v2895user1; v2895user2; ... v2895user16,="f108f1",2019-06-11 23:44:00,2019-06-12 19:16:00,No DNS Assets,No One,None,null
