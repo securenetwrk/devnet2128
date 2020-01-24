@@ -1,3 +1,7 @@
 *.retry
 backup/
 venv/
+roles/
+default_inventory.yaml
+*.virl
+vpnpw.txt
