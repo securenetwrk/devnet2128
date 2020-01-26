@@ -1,0 +1,13 @@
+Session Id, Session Name, Usernames, Password, Start, Stop, DNS Assets, Shared With, Endpoint Kits, Public IPs  
+700038,Cisco VIRL 1.6.65 Sandbox July Release v1,v1192user1; v1192user2; ... v1192user16,="d2ca27",2019-10-29 16:16:00,2019-10-31 04:14:00,No DNS Assets,No One,None,null
+700034,Cisco VIRL 1.6.65 Sandbox July Release v1,v1787user1; v1787user2; ... v1787user16,="ec6344",2019-10-29 16:32:00,2019-10-31 04:10:00,No DNS Assets,No One,None,null
+700029,Cisco VIRL 1.6.65 Sandbox July Release v1,v1570user1; v1570user2; ... v1570user16,="f50ff8",2019-10-29 16:52:00,2019-10-31 04:05:00,No DNS Assets,No One,None,null
+700035,Cisco VIRL 1.6.65 Sandbox July Release v1,v2109user1; v2109user2; ... v2109user16,="85a358",2019-10-29 16:28:00,2019-10-31 04:11:00,No DNS Assets,No One,None,null
+700033,Cisco VIRL 1.6.65 Sandbox July Release v1,v1650user1; v1650user2; ... v1650user16,="eddd64",2019-10-29 16:36:00,2019-10-31 04:09:00,No DNS Assets,No One,None,null
+700028,Cisco VIRL 1.6.65 Sandbox July Release v1,v609user1; v609user2; ... v609user16,="4e5436",2019-10-29 16:56:00,2019-10-31 04:04:00,No DNS Assets,No One,None,null
+700032,Cisco VIRL 1.6.65 Sandbox July Release v1,v671user1; v671user2; ... v671user16,="12911c",2019-10-29 16:40:00,2019-10-31 04:08:00,No DNS Assets,No One,None,null
+700031,Cisco VIRL 1.6.65 Sandbox July Release v1,v113user1; v113user2; ... v113user16,="98661d",2019-10-29 16:44:00,2019-10-31 04:07:00,No DNS Assets,No One,None,null
+700027,Cisco VIRL 1.6.65 Sandbox July Release v1,v872user1; v872user2; ... v872user16,="fb0d86",2019-10-29 17:00:00,2019-10-31 04:03:00,No DNS Assets,No One,None,null
+700037,Cisco VIRL 1.6.65 Sandbox July Release v1,v1959user1; v1959user2; ... v1959user16,="8cef81",2019-10-29 16:20:00,2019-10-31 04:13:00,No DNS Assets,No One,None,null
+700036,Cisco VIRL 1.6.65 Sandbox July Release v1,v2395user1; v2395user2; ... v2395user16,="9fda78",2019-10-29 16:24:00,2019-10-31 04:12:00,No DNS Assets,No One,None,null
+700030,Cisco VIRL 1.6.65 Sandbox July Release v1,v2832user1; v2832user2; ... v2832user16,="e9041b",2019-10-29 16:48:00,2019-10-31 04:06:00,No DNS Assets,No One,None,null
